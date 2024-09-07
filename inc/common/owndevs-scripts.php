@@ -18,9 +18,11 @@ function owndevs_scripts() {
     wp_enqueue_style( 'jquery-fancybox', OWNDEVS_THEME_V_CSS_DIR . 'jquery.fancybox.min.css', [] );
     wp_enqueue_style( 'owl-carousel', OWNDEVS_THEME_V_CSS_DIR . 'owl.carousel.min.css', [] );
     wp_enqueue_style( 'cubeportfolio', OWNDEVS_THEME_V_CSS_DIR . 'cubeportfolio.min.css', [] );
+    wp_enqueue_style( 'LineIcons', OWNDEVS_THEME_V_CSS_DIR . 'LineIcons.min.css', [] );
     wp_enqueue_style( 'swiper', OWNDEVS_THEME_V_CSS_DIR . 'swiper.min.css', [] );
     wp_enqueue_style( 'nouislider', OWNDEVS_THEME_CSS_DIR . 'nouislider.min.css', [] );
     wp_enqueue_style( 'range-slider', OWNDEVS_THEME_CSS_DIR . 'range-slider.css', [] );
+    wp_enqueue_style( 'settings', OWNDEVS_THEME_V_CSS_DIR . 'settings.css', [] );
     wp_enqueue_style( 'blog', OWNDEVS_THEME_CSS_DIR . 'blog.css', [] );
     wp_enqueue_style( 'nouislider', OWNDEVS_THEME_CSS_DIR . 'nouislider.min.css', [] );
     wp_enqueue_style( 'thmeme-style', OWNDEVS_THEME_CSS_DIR . 'style.css', [] );

@@ -962,3 +962,7 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+.rev_slider .tp-mask-wrap .tp-caption, .rev_slider .tp-mask-wrap *:last-child, .wpb_text_column .rev_slider .tp-mask-wrap .tp-caption, .wpb_text_column .rev_slider .tp-mask-wrap *:last-child {
+    border-width: 0px !important;
+}
