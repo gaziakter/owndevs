@@ -26,6 +26,8 @@
 </footer>
 <!--Footer End-->
 
+<span class="scroll-top-arrow" style="display: inline-block;"><i class="fas fa-angle-up"></i></span>
+
 <!--Shop card window Start-->
 <section class="shop-card-window hidden" id="shop-card-window">
     <a href="#" id="close-card-window" class="close-card-window"><i class="las la-times"></i></a>
