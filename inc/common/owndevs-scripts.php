@@ -29,6 +29,7 @@ function owndevs_scripts() {
 
     // all js
     wp_enqueue_script( 'popper', OWNDEVS_THEME_JS_DIR . 'popper.js', [ 'jquery' ], '', true );
+    wp_enqueue_script( 'boostrap-bundle', OWNDEVS_THEME_V_JS_DIR . 'bundle.min.js', [ 'jquery' ], '', true );
     wp_enqueue_script( 'jquery-appear', OWNDEVS_THEME_V_JS_DIR . 'jquery.appear.js', [ 'jquery' ], '', true );
     wp_enqueue_script( 'jquery-fancybox.min', OWNDEVS_THEME_V_JS_DIR . 'jquery.fancybox.min.js', [ 'jquery' ], '', true );
     wp_enqueue_script( 'owl-carousel', OWNDEVS_THEME_V_JS_DIR . 'owl.carousel.min.js', [ 'jquery' ], '', true );
