@@ -1,5 +1,25 @@
+<?php
+/**
+ * The main template file
+ *
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package harry
+ */
+
+get_header();
+
+$blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
+
+?>
+
 <!--slider sec strat-->
-<section id="slider-sec" class="slider-sec parallax" style="background: url('./img/blogs/s-blog-slider.jpg');">
+<section id="slider-sec" class="slider-sec parallax" style="background: url('	<?php echo get_template_directory_uri(); ?>/assets/img/blogs/s-blog-slider.jpg');">
     <div class="overlay text-center d-flex justify-content-center align-items-center">
         <div class="slide-contain">
             <h4>BLOG CONTENT</h4>
@@ -26,7 +46,7 @@
                     <div class="main_content text-center text-lg-left">
                         <div class="single_blog">
                             <div class="single_img">
-                                <img src="img/blogs/b2.jpg" alt="image"/>
+                                <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/blogs/b2.jpg" alt="image"/>
                             </div>
                             <div class="single_detail">
                                 <p class="blog-sub-heading text-center"><span></span>Most flexible one page</p>
@@ -38,7 +58,7 @@
                         </div>
                         <div class="single_blog">
                             <div class="single_img">
-                                <img src="img/blogs/b1.jpg" alt="image"/>
+                                <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/blogs/b1.jpg" alt="image"/>
                             </div>
                             <div class="single_detail">
                                 <p class="blog-sub-heading text-center"><span></span>Most flexible one page</p>
@@ -50,7 +70,7 @@
                         </div>
                         <div class="single_blog">
                             <div class="single_img">
-                                <img src="img/blogs/b3.jpg" alt="image"/>
+                                <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/blogs/b3.jpg" alt="image"/>
                             </div>
                             <div class="single_detail">
                                 <p class="blog-sub-heading text-center"><span></span>Most flexible one page</p>
@@ -160,7 +180,7 @@
                                 </ul>
                             </div>
                             <div class="advertisment">
-                                <img src="img/blogs/advertisment.jpg" alt="image"/>
+                                <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/blogs/advertisment.jpg" alt="image"/>
                             </div>
                         </div>
                     </div>
@@ -170,3 +190,6 @@
     </div>
 </section>
 <!--main page content end-->
+
+<?php
+get_footer();

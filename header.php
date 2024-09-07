@@ -15,19 +15,20 @@
     <title>Index - food-shop</title>
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
+
     <!-- Bundle -->
-    <link href="vendor/css/bundle.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/bundle.min.css" rel="stylesheet">
     <!-- Plugin Css -->
-    <link href="css/line-awesome.min.css" rel="stylesheet">
-    <link href="vendor/css/revolution-settings.min.css" rel="stylesheet">
-    <link href="vendor/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="vendor/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="vendor/css/cubeportfolio.min.css" rel="stylesheet">
-    <link href="vendor/css/swiper.min.css" rel="stylesheet">
-    <link href="css/nouislider.min.css" rel="stylesheet">
-    <link href="css/range-slider.css" rel="stylesheet">
-    <link href="css/blog.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/line-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/revolution-settings.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/cubeportfolio.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/swiper.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/nouislider.min.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/range-slider.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/blog.css" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="90">
@@ -65,7 +66,7 @@
                     </ul>
                 </div>
                 <div class="col-12 d-flex justify-content-center align-items-center">
-                    <a class="navbar-brand" href="../index-food-shop.html"><img src="img/logo.png"></a>
+                    <a class="navbar-brand" href="../index-food-shop.html"><img src="	<?php echo get_template_directory_uri(); ?>/assets/img/logo.png"></a>
                 </div>
             </div>
         </div>
@@ -77,7 +78,7 @@
                 <div class="col-6 col-lg-3 offset-3 offset-lg-0">
                     <a href="../index-food-shop.html" title="Logo" class="logo fixed-nav-items">
                         <!--Logo Default-->
-                        <img src="img/logo-black.png" alt="logo" class="logo-dark">
+                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/logo-black.png" alt="logo" class="logo-dark">
                     </a>
                 </div>
                 <!--Nav Links-->
