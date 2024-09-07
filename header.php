@@ -40,36 +40,14 @@
 
 <!--Header Start-->
 <header id="header">
-    <div class="upper-nav">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 mt-auto mb-auto">
-                    <ul class="d-flex mb-0 top-info">
-                        <li class="c-links d-none d-lg-block"><span><i class="lab la-whatsapp"></i></span><a href="#">+(34)609 331754</a></li>
-                    </ul>
-                </div>
-                <div class="col-12 col-lg-6 mt-auto mb-auto d-lg-flex justify-content-center justify-content-lg-end">
-                    <ul class="shop-details d-flex">
-                        <li>
-                            <a href="javascript:void(0)" class="open_search"><i class="las la-search"></i></a>
-                        </li>
-                        <li><a href="#" id="open-shop-card"><i class="las la-shopping-bag"></i></a></li>
-                    </ul>
-                </div>
-                <div class="col-12 d-flex justify-content-center align-items-center">
-                    <a class="navbar-brand" href="../index-food-shop.html"><img src="	<?php echo get_template_directory_uri(); ?>/assets/img/logo.png"></a>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--Navigation-->
     <nav class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line">
         <div class="container">
             <div class="row no-gutters w-100">
-                <div class="col-6 col-lg-3 offset-3 offset-lg-0">
+                <div class="col-6 offset-md-0 col-lg-3 offset-3 offset-lg-0">
                     <a href="../index-food-shop.html" title="Logo" class="logo fixed-nav-items">
                         <!--Logo Default-->
-                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/logo-black.png" alt="logo" class="logo-dark">
+                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/logo/owndevs.png" alt="logo" class="logo-dark">
                     </a>
                 </div>
                 <!--Nav Links-->
@@ -96,7 +74,7 @@
                     </div>
                 </div>
                 <!--Side Menu Button-->
-                <div class="col-3 d-flex justify-content-end align-items-center">
+                <div class="col-3 col-lg-3 col-md-6 d-flex justify-content-end align-items-center">
 
                     <ul class="shop-details fixed-nav-items">
                         <li>

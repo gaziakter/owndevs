@@ -966,3 +966,36 @@ textarea {
 .rev_slider .tp-mask-wrap .tp-caption, .rev_slider .tp-mask-wrap *:last-child, .wpb_text_column .rev_slider .tp-mask-wrap .tp-caption, .wpb_text_column .rev_slider .tp-mask-wrap *:last-child {
     border-width: 0px !important;
 }
+
+
+.navbar.navbar-top-default.navbar-expand-lg.navbar-simple.nav-line {
+	padding: initial !important;
+}
+
+@media (max-width: 991.98px) {
+	.navbar-simple .navbar-nav .nav-link {
+		padding: 0 10px;
+	}	
+
+	ul.shop-details.fixed-nav-items {
+        padding: 0 36px 0 0;
+		margin: 0;
+	}
+	ul.shop-details.fixed-nav-items {
+		padding-right: 60px !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+    .header-appear .fixed-nav-items img {
+        width: 60%  !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+	ul.shop-details.fixed-nav-items {
+		margin: 0 !important;
+		padding-right: 0px !important;
+	}
+ }
+
