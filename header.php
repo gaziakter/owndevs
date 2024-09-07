@@ -27,38 +27,14 @@
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
-    <!-- Bundle -->
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/bundle.min.css" rel="stylesheet">
-    <!-- Plugin Css -->
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/line-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/revolution-settings.min.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/cubeportfolio.min.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css/swiper.min.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/nouislider.min.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/range-slider.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/blog.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" rel="stylesheet">
+	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class();?> data-spy="scroll" data-target=".navbar" data-offset="90">
 
 	<?php wp_body_open();?>
 
-
-<!-- Preloader -->
-<div class="preloader">
-    <div class="centrize full-width">
-        <div class="vertical-center">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Preloader End -->
+    
 
 <!--Header Start-->
 
