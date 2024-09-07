@@ -147,13 +147,9 @@ function owndevs_content_width() {
 }
 add_action( 'after_setup_theme', 'owndevs_content_width', 0 );
 
-
-
-
 /**
  * Enqueue scripts and styles.
  */
-
 define( 'OWNDEVS_THEME_DIR', get_template_directory() );
 define( 'OWNDEVS_THEME_URI', get_template_directory_uri() );
 define( 'OWNDEVS_THEME_V_CSS_DIR', OWNDEVS_THEME_URI . '/assets/vendor/css/' );

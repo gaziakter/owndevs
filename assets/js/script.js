@@ -1,25 +1,25 @@
-$(window).on("load", function () {
+
+(function ($) {
 
     "use strict";
 
-    /* ===================================
-            Loading Timeout
-     ====================================== */
 
-    $('.side-menu').removeClass('hidden');
-    $('.shop-card-window').removeClass('hidden');
+    $(window).on("load", function () {
 
-    setTimeout(function(){
-        $('.preloader').fadeOut();
-    }, 1000);
-
-});
-
-
-jQuery(function ($) {
-
-
-    "use strict";
+        "use strict";
+    
+        /* ===================================
+                Loading Timeout
+         ====================================== */
+    
+        $('.side-menu').removeClass('hidden');
+        $('.shop-card-window').removeClass('hidden');
+    
+        setTimeout(function(){
+            $('.preloader').fadeOut();
+        }, 1000);
+    
+    });
 
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 260) { // Set position from top to add class
@@ -356,7 +356,7 @@ jQuery(function ($) {
 
     /*===================================
           Swiper Sync Slider
-======================================*/
+    ======================================*/
     if ($("#gallery").length) {
         var galleryTop = new Swiper('#gallery', {
             effect: 'fade',
@@ -466,4 +466,4 @@ jQuery(function ($) {
     );
     wow.init();
 
-});
+})(jQuery);

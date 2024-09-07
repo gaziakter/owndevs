@@ -10,34 +10,35 @@
  */
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html <?php language_attributes();?>>
 <head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    <!-- Author -->
-    <meta name="author" content="Themes Industry">
-    <!-- description -->
-    <meta name="description" content="food-shop is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose studio and portfolio HTML5 template with 8 ready home page demos.">
-    <!-- keywords -->
-    <meta name="keywords" content="food-shop, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, studio, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, studio, masonry, grid, faq">
-    <!-- Page Title -->
-    <title>Index - food-shop</title>
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
-	<?php wp_head(); ?>
+	<meta charset="<?php bloginfo( 'charset' );?>">
+    <?php if ( is_singular() && pings_open( get_queried_object() ) ): ?>
+    <?php endif;?>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<?php wp_head();?>
 </head>
 
 <body <?php body_class();?> data-spy="scroll" data-target=".navbar" data-offset="90">
 
 	<?php wp_body_open();?>
 
-    
+<!-- Preloader -->
+<div class="preloader">
+    <div class="centrize full-width">
+        <div class="vertical-center">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Preloader End -->
 
 <!--Header Start-->
-
 <header id="header">
     <div class="upper-nav">
         <div class="container">

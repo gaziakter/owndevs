@@ -49,7 +49,7 @@ function owndevs_scripts() {
     wp_enqueue_script( 'extension-video', OWNDEVS_THEME_VJ_E_DIR . 'revolution.extension.video.min.js', [ 'jquery' ], '', true );
     wp_enqueue_script( 'bootstrap-input-spinner', OWNDEVS_THEME_V_JS_DIR . 'bootstrap-input-spinner.js', [ 'jquery' ], '', true );
     wp_enqueue_script( 'swiper', OWNDEVS_THEME_V_JS_DIR . 'swiper.min.js', [ 'jquery' ], '', true );
-    wp_enqueue_script( 'nouislider', OWNDEVS_THEME_JS_DIR . 'nouislider.min.js', [ 'jquery' ], '', true );
+    wp_enqueue_script( 'nouislider', OWNDEVS_THEME_JS_DIR . 'nouislider.min.js', [ 'jquery' ], time(), true );
     wp_enqueue_script( 'script', OWNDEVS_THEME_JS_DIR . 'script.js', [ 'jquery' ], '', true );
 
 
