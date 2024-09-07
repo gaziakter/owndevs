@@ -131,7 +131,7 @@ $blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
                                 <h4 class="text-center text-lg-left">Popular Posts</h4>
                                 <div class="media-box row">
                                     <div class="col-5 box-img">
-                                        <img src="img/blogs/p1.jpg" alt="image">
+                                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/blogs/p1.jpg" alt="image">
                                     </div>
                                     <div class="col-7 box-detail">
                                         <h2>Post With A Preview Images</h2>
@@ -140,7 +140,7 @@ $blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
                                 </div>
                                 <div class="media-box row">
                                     <div class="col-5 box-img">
-                                        <img src="img/blogs/p2.jpg" alt="image">
+                                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/blogs/p2.jpg" alt="image">
                                     </div>
                                     <div class="col-7 box-detail">
                                         <h2>Post With A Image Gallery</h2>
@@ -149,7 +149,7 @@ $blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
                                 </div>
                                 <div class="media-box row">
                                     <div class="col-5 box-img">
-                                        <img src="img/blogs/p3.jpg" alt="image">
+                                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/blogs/p3.jpg" alt="image">
                                     </div>
                                     <div class="col-7 box-detail">
                                         <h2>Post With A Slide Images</h2>

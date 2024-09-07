@@ -1,3 +1,14 @@
+<?php
+/**
+ * The header for our theme
+ *
+ * This is the template that displays all of the <head> section and everything up until <div id="content">
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package owndevs
+ */
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +42,10 @@
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="90">
+<body <?php body_class();?> data-spy="scroll" data-target=".navbar" data-offset="90">
+
+	<?php wp_body_open();?>
+
 
 <!-- Preloader -->
 <div class="preloader">
