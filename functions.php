@@ -168,8 +168,8 @@ if ( !function_exists( 'wp_body_open' ) ) {
     }
 }
 
-
 /**
  * include owndevs functions file
  */
 require_once OWNDEVS_THEME_INC . '/common/owndevs-scripts.php';
+require_once OWNDEVS_THEME_INC . 'kirki-customizer.php';
