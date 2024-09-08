@@ -159,6 +159,15 @@ define( 'OWNDEVS_THEME_CSS_DIR', OWNDEVS_THEME_URI . '/assets/css/' );
 define( 'OWNDEVS_THEME_JS_DIR', OWNDEVS_THEME_URI . '/assets/js/' );
 define( 'OWNDEVS_THEME_INC', OWNDEVS_THEME_DIR . '/inc/' );
 
+/**
+ * WP body open function
+ */
+if ( !function_exists( 'wp_body_open' ) ) {
+    function wp_body_open() {
+        do_action( 'wp_body_open' );
+    }
+}
+
 
 /**
  * include owndevs functions file
