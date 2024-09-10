@@ -51,24 +51,7 @@
                 <!--Nav Links-->
                 <div class="col-6 d-none d-lg-flex justify-content-lg-center align-items-lg-center">
                     <div class="collapse navbar-collapse" id="megaone">
-                        <ul class="navbar-nav ml-auto mr-auto">
-                            <li><a class="nav-link active scroll" href="../index-food-shop.html#header">Home</a></li>
-                            <li><a class="nav-link" href="about-us.html">About Us</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Pages <i class="fas fa-angle-down"></i>
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="product-listing.html"><i class="las la-caret-right"></i> Product Listing</a>
-                                    <a class="dropdown-item" href="product-detail.html"><i class="las la-caret-right"></i> Product Detail</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="standalone.html"><i class="las la-caret-right"></i> Standalone</a>
-                                </div>
-                            </li>
-                            <li><a class="nav-link scroll" href="../index-food-shop.html#featured-items">Shop</a></li>
-                            <li><a class="nav-link" href="standard-blog.html">Blogs</a></li>
-                            <li><a class="nav-link" href="contact-us.html">Contact</a></li>
-                        </ul>
+                    <?php owndevs_header_logo(); ?>
                     </div>
                 </div>
                 <!--Side Menu Button-->
