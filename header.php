@@ -8,6 +8,7 @@
  *
  * @package owndevs
  */
+
 ?>
 
 <!doctype html>
@@ -45,10 +46,7 @@
         <div class="container">
             <div class="row no-gutters w-100">
                 <div class="col-6 offset-md-0 col-lg-3 offset-3 offset-lg-0">
-                    <a href="../index-food-shop.html" title="Logo" class="logo fixed-nav-items">
-                        <!--Logo Default-->
-                        <img src="	<?php echo get_template_directory_uri(); ?>/assets/img/logo/owndevs.png" alt="logo" class="logo-dark">
-                    </a>
+                    <?php owndevs_logo(); ?>
                 </div>
                 <!--Nav Links-->
                 <div class="col-6 d-none d-lg-flex justify-content-lg-center align-items-lg-center">
