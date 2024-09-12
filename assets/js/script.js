@@ -21,6 +21,12 @@
     
     });
 
+    // Menu icon
+    $('li.angle-icon').click(function() {
+        $("li.angle-icon").addClass("icon-rotation");
+    });
+
+
     $(window).on('scroll', function () {
         if ($(this).scrollTop() > 260) { // Set position from top to add class
             $('header').addClass('header-appear');

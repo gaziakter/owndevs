@@ -134,7 +134,7 @@ if ( !class_exists( 'Owndevs_Navwalker_Class' ) ) {
 
             // Add .dropdown or .active classes where they are needed.
             if ( isset( $args->has_children ) && $args->has_children ) {
-                $classes[] = 'dropdown';
+                $classes[] = 'dropdown angle-icon';
             }
             if ( in_array( 'current-menu-item', $classes, true ) || in_array( 'current-menu-parent', $classes, true ) ) {
                 $classes[] = 'active';
@@ -142,7 +142,7 @@ if ( !class_exists( 'Owndevs_Navwalker_Class' ) ) {
 
             // Add some additional default classes to the item.
             $classes[] = 'menu-item-' . $item->ID;
-            $classes[] = '';
+            $classes[] = 'nav-item';
 
             // Allow filtering the classes.
             $classes = apply_filters( 'nav_menu_css_class', array_filter( $classes ), $item, $args, $depth );
@@ -186,8 +186,9 @@ if ( !class_exists( 'Owndevs_Navwalker_Class' ) ) {
                 $atts['data-toggle'] = 'dropdown';
                 $atts['aria-haspopup'] = 'true';
                 $atts['aria-expanded'] = 'false';
+                $atts['role'] = 'button';
                 $atts['class'] = 'nav-link dropdown-toggle';
-                $atts['id'] = '' . $item->ID;
+                $atts['id'] = 'navbarDropdown';
             } else {
                 $atts['href'] = !empty( $item->url ) ? $item->url : '#';
                 // Items in dropdowns use .dropdown-item instead of .nav-link.

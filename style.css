@@ -999,3 +999,23 @@ textarea {
 	}
  }
 
+
+
+ /*Menu icon*/
+ .angle-icon{
+	position: relative;
+	margin-right: 18px;
+	transition: transform 0.3s ease;
+ }
+ .angle-icon:before {
+    top: 4px;
+    right: -5px;
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: "\f107";
+    display: inline-block;
+    font-weight: 900;
+}
+.icon-rotation{
+	
+}

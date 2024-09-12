@@ -23,8 +23,9 @@ function owndevs_header_logo(){
     wp_nav_menu([
         'theme_location' => 'main-menu',
         'menu_class'     => 'navbar-nav ml-auto mr-auto',
-        'container'      => '',
+        'container'      => false,
         'fallback_cb'    => 'Owndevs_Navwalker_Class::fallback',
         'walker'         => new Owndevs_Navwalker_Class,
+        'depth'          => 2,
     ]);
 }
